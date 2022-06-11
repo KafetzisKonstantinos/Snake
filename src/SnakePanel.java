@@ -66,8 +66,6 @@ public class SnakePanel extends JPanel implements ActionListener {
         } else {
             gameOver(g);
         }
-
-
     }
 
     public void move() {
@@ -131,8 +129,6 @@ public class SnakePanel extends JPanel implements ActionListener {
 
         FontMetrics metrics2 = getFontMetrics(g.getFont());
         g.drawString("Score: " + appleseaten, (SCREEN_WIDTH - metrics2.stringWidth("Score: " + appleseaten)) / 2, SCREEN_HEIGHT / 3);
-
-
     }
 
     @Override
@@ -145,7 +141,6 @@ public class SnakePanel extends JPanel implements ActionListener {
         repaint();
 
     }
-
 
     public class MyKeyAdapter extends KeyAdapter {
         @Override
