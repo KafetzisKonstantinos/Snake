@@ -118,7 +118,6 @@ public class SnakePanel extends JPanel implements ActionListener {
         if (!running) {
             timer.stop();
         }
-
     }
 
     public void gameOver(Graphics g) {
